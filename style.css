@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;600&family=Nixie+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+nav{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    position: sticky;
+    margin: 5px auto;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin: 0 80px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(189, 43, 43);
+    font-size: 22px;
+    font-family:'Share Tech Mono', monospace;
+}
+nav ul li a:hover{
+    background-color: rgb(221, 209, 209);
+}
+.container{
+    width: 100%;
+    position: absolute;
+    top: 70%;
+    height: 170vh;
+    background-color: rgb(0, 0, 0);
+}
+.container h1{
+    color: white;
+    font-family:'Share Tech Mono', monospace;
+    text-align: center;
+}
+.gif img{
+    position: absolute;
+    left: 19%;
+    height: 400px;
+    max-width: 100%;
+}
+text{
+    font-family: 'Share Tech Mono', monospace;
+    color: white;
+    font-size: 20px;
+}
+.container2{
+    height: 350px;
+    background-color: transparent;
+    width: 500px;
+    position: relative;
+    top: 3%;
+    left: 1%;
+}
+.container3{
+    width: 800px;
+    position: relative;
+    left: 30%;
+    bottom: 28%;
+    left: 40%;
+}
+.pic1 img{
+    border: solid white;
+    max-width: 100%;
+}
+.pic2 img{
+    border: solid white;
+    max-width: 100%;
+}
+.pic3 img{
+    border: solid white;
+    max-width: 100%;
+}
+.pic4 img{
+    border: solid white;
+    max-width: 100%;
+}
+.container4{
+    position: relative;
+    top: 40%;
+    right: 30%;
+}
+.container4 ul li{
+    list-style: none;
+    display: inline;
+}
+.container4 ul li a{
+    text-decoration: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: medium;
+    color: white;
+}
+.container4 h1{
+    color: white;
+    font-family:'Share Tech Mono', monospace;
+    text-align: center;
+}
+.hello h1{
+    font-family: 'Share Tech Mono', monospace;
+    color: white;
+    position: absolute;
+    top: 90%;
+    left: 34%;
+    font-size: 60px;
+
+}
+.hello h1:hover{
+    color: rgb(189, 43, 43);
+}
+.gif1 img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 82%;
+    left: 85%;
+    max-width: 100%;
+}
+.container4 ul li a:hover{
+    color: rgb(189, 43, 43);
+}
